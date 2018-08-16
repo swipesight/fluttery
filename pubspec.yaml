@@ -5,7 +5,8 @@ author: Matt Carroll <fluttery.io@gmail.com>
 homepage: https://github.com/matthew-carroll/fluttery
 
 environment:
-  sdk: '>=1.19.0 <2.0.0'
+  # The pub client defaults to an <2.0.0 sdk constraint which we need to explicitly overwrite.
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
   flutter:
